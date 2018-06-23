@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "Kaushan Script";
+    src: url("../fonts/kaushan-script.ttf");
+}
+
+body{
+    background: url("../images/bg.jpg") fixed;
+    background-size: 100%;
+    font-family: "Kaushan Script";
+}
+
+.header, .menu, .footer{
+    display: flex;
+
+}
+
+.header {
+    width:1100px;
+    background-color: white;
+    opacity: 0.7;
+    border-radius: 20px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.img{
+    margin-left: 100px;
+    height:auto;
+    position: relative;
+}
+
+.letter{
+    margin-left: 200px;
+}
+
+.menu{
+    z-index: 5;
+    width:1100px;
+    background-color: white;
+    opacity: 0.7;
+    border-radius: 20px;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.footer {
+    width:1100px;
+    background-color: white;
+    opacity: 0.7;
+    border-radius: 20px;
+    align-items: center;
+    margin: 10px auto 0px auto;
+}
+
+.content{
+    display: block;
+    width:1100px;
+    background-color: white;
+    opacity: 0.7;
+    border-radius: 20px;
+    align-items: center;
+    padding: 20px 0;
+
+    margin: 100px auto 0 auto;
+    border: 0px black solid;
+
+}
+
+h2{
+    font-family: "Monotype Corsiva", cursive;
+    font-weight: 700;
+    color: black;
+    font-size: 3em;
+    text-align: center;
+}
+
+.content p{
+    font-family: "Monotype Corsiva", cursive;
+}
+
+.link{
+    margin-left: 50px;
+}
+
+p{
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+}
+
+a{
+
+}
